@@ -1,0 +1,10 @@
+Compile EMCtemplate.cpp using g++
+Here is a template ready to play with EMC. It compiles with g++ and gcc (the example works with g++ only).
+
+To begin with, you need to specify the parameter ranges in the function "setupParameters". The number of parameters is set to 8 right now. If you need less paramets you can just set the remaining to the range 0 to 0, for instance.
+
+Then you need to write an expression for the fitness H inside the function "fitnessTest". There are some comments there. In other words, you
+need to design a mapping from parameters to a fitness, where a low fitness means good performance.
+The fitness function H should ideally be a smooth function roughly between the values 0 and 20 approximately.
+Read the EMC article PDF for some details on fitness function design.
+
