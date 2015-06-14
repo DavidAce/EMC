@@ -1046,7 +1046,7 @@ int main(void){
 		for (i = 0; i < N; i++){
 			fprintf(data.surfdata, "%.5f	%.5f	%.5f	%.5f	%.5f\n", guys[i].parameter[0], guys[i].parameter[1], guys[i].parameter[2], guys[i].parameter[3], guys[i].H);
 		}
-		if ( mod(k,200) == 0 || k == 1 || k == 10 || k == 20|| k == generations - 1){
+		if ( mod(k,100) == 0 || k == 1 || k == 10 || k == 20|| k == generations - 1){
 			arr.store_flag = true;
 			if (k < 5) {
 				arr.gen = k + 1;
